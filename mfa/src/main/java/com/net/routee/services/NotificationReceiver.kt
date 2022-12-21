@@ -1,18 +1,14 @@
 package com.net.routee.services
 
-import android.app.ProgressDialog
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.util.Log
-import android.view.View
-import android.widget.ProgressBar
 import androidx.core.app.NotificationManagerCompat
 import com.net.routee.preference.SharedPreference
 import com.net.routee.retrofit.APISupport
 import com.net.routee.setUp.ApplicationDetails
 import com.net.routee.utils.Constants
-import kotlinx.android.synthetic.main.authentication_dialog.view.*
 import org.json.JSONObject
 import retrofit2.Call
 import retrofit2.Callback

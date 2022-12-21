@@ -20,16 +20,16 @@ class SharedPreference(context: Context) {
         }
     }
 
-    @SuppressLint("CommitPrefEdits")
-    fun deletePreference() {
-        // need toremove later
-        val fcmToken = getFCMToken()
-
-        pref.edit().clear().commit()
-
-        // need to remove later
-        setFCMToken(fcmToken)
-    }
+//    @SuppressLint("CommitPrefEdits")
+//    fun deletePreference() {
+//        // need to remove later
+////        val fcmToken = getFCMToken()
+//
+//        pref.edit().clear().apply()
+//
+//        // need to remove later
+////        setFCMToken(fcmToken)
+//    }
 
     /**
      * Save the Channel ID.

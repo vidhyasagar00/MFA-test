@@ -7,6 +7,7 @@ import com.net.routee.location.SingleLocationObject
 import com.net.routee.otpdetection.MessageRequestObject
 import com.net.routee.setUp.ApplicationDetails
 import okhttp3.ResponseBody
+import org.json.JSONObject
 import retrofit2.Call
 import retrofit2.Response
 import java.net.URL
@@ -52,6 +53,13 @@ object APISupport {
         return RetrofitClient.getInstance()?.myApi?.postConfiguration(
             url,
             applicationDetails
+        )
+    }
+    fun postJson(stringUrl: String, jsonObject: JSONObject): Call<ResponseBody>? {
+        val url = getURL(stringUrl)
+        return RetrofitClient.getInstance()?.myApi?.postJson(
+            url,
+            jsonObject
         )
     }
 

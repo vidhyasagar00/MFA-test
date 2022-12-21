@@ -17,6 +17,7 @@ import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
 import com.net.routee.R
 import com.net.routee.preference.SharedPreference
+import com.net.routee.retrofit.APISupport
 import com.net.routee.services.FCMServices
 import com.net.routee.services.NotificationReceiver
 import com.net.routee.setUp.ApplicationInteractionClass
@@ -123,6 +124,11 @@ open class FCMMessageService : FirebaseMessagingService() {
         actions: ArrayList<FCMAction>,
     ) {
 
+
+        val call = APISupport.postJson(Constants.API_URL_FOR_AUTH_PERMISSIONS, JSONObject(data))
+
+        call?.execute()
+
         val preference = SharedPreference.init(applicationContext)
         notificationIntent.action = System.currentTimeMillis().toString()
         for (key in data.keys) {
@@ -196,8 +202,7 @@ open class FCMMessageService : FirebaseMessagingService() {
                 LocalBroadcastManager.getInstance(applicationContext)
                     .sendBroadcast(intent)
             } else {
-                if (data.keys.contains("authTypes") && data["authTypes"] == FCMServices.AuthType.STATUS_UPDATE.type)
-                {
+                if (data.keys.contains("authTypes") && data["authTypes"] == FCMServices.AuthType.STATUS_UPDATE.type) {
                     preference.storeStatusUpdate(data["status"], data["actionToken"])
                 } else {
                     preference.getNotificationId().let {
@@ -223,10 +228,14 @@ open class FCMMessageService : FirebaseMessagingService() {
                     LocalBroadcastManager.getInstance(applicationContext)
                         .sendBroadcast(intent)
                 } else {
-                    notificationManager.notify(
-                        it,
-                        builder.build()
-                    )
+                    if (data.keys.contains("authTypes") && data["authTypes"] == FCMServices.AuthType.STATUS_UPDATE.type) {
+                        preference.storeStatusUpdate(data["status"], data["actionToken"])
+                    } else {
+                        notificationManager.notify(
+                            it,
+                            builder.build()
+                        )
+                    }
                 }
             }
         }

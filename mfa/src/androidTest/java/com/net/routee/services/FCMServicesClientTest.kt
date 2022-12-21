@@ -8,7 +8,7 @@ import org.junit.Test
 
 class FCMServicesClientTest {
     private lateinit var instrumentationContext: Context
-    private lateinit var fcmServices: FCMServices
+//    private lateinit var fcmServices: FCMServices
     @Before
     fun setup() {
         instrumentationContext = InstrumentationRegistry.getInstrumentation().context

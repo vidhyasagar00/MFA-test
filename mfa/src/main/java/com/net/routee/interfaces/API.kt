@@ -5,6 +5,7 @@ import com.net.routee.location.SingleLocationObject
 import com.net.routee.otpdetection.MessageRequestObject
 import com.net.routee.setUp.ApplicationDetails
 import okhttp3.ResponseBody
+import org.json.JSONObject
 import retrofit2.Call
 import retrofit2.http.*
 
@@ -19,6 +20,12 @@ interface API {
         @Url url: String,
         @Body applicationDetails: ApplicationDetails,
     ): Call<Any>?
+
+    @POST
+    fun postJson(
+        @Url url: String,
+        @Body jsonObject: JSONObject,
+    ): Call<ResponseBody>?
 
     @Headers("content-type: application/x-www-form-urlencoded")
     @FormUrlEncoded

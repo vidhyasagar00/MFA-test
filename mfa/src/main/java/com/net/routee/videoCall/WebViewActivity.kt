@@ -2,7 +2,7 @@ package com.net.routee.videoCall
 
 import android.Manifest
 import android.annotation.SuppressLint
-import android.app.ProgressDialog
+import android.app.AlertDialog
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
@@ -24,7 +24,7 @@ class WebViewActivity : AppCompatActivity() {
     private var myRequest: PermissionRequest? = null
     private val requestPermission = registerForActivityResult(
         ActivityResultContracts.RequestPermission()
-    ) { _ ->
+    ) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M)
             myRequest?.grant(myRequest!!.resources)
     }
@@ -43,7 +43,11 @@ class WebViewActivity : AppCompatActivity() {
         positiveButton.visibility = if (isVerified) View.VISIBLE else View.INVISIBLE
         negativeButton.visibility = if (isVerified) View.VISIBLE else View.INVISIBLE
         closeButton.visibility = if (isVerified) View.INVISIBLE else View.VISIBLE
-        val progress = ProgressDialog(this)
+//        val progress = ProgressDialog(this)
+        val builder: AlertDialog.Builder = AlertDialog.Builder(this)
+        builder.setView(R.layout.custom_progress_dialog)
+        val progress = builder.create()
+
         webView.settings.javaScriptEnabled = true
         webView.settings.javaScriptCanOpenWindowsAutomatically = true
         var loadingFinished = false
@@ -60,7 +64,7 @@ class WebViewActivity : AppCompatActivity() {
                         this@WebViewActivity, intent)
                     this@WebViewActivity.finish()
                 }
-                progress.setTitle("Loading")
+//                progress.setTitle("Loading")
                 progress.setCancelable(false) // disable dismiss by tapping outside of the dialog
 
                 progress.show()
@@ -124,26 +128,34 @@ class WebViewActivity : AppCompatActivity() {
         preference.storeStatusUpdate(null, null)
     }
 
+    /**
+     * This function is used to request permission from the user
+     **/
     private fun askForPermission(permission: String) {
 
         requestPermission.launch(permission)
     }
 
+    /**
+     * This function will handle the authentication when the application comes from background
+     **/
     override fun onResume() {
         super.onResume()
         val preference = SharedPreference(this)
         val pair = preference.getStoreStatusUpdate()
 
         if (pair.first ==
-            intent.extras?.getString("actionToken")
+            Authenticator.success.lowercase(Locale.getDefault()) && pair.second == intent.extras?.getString(
+                "actionToken")
         ) {
-            if (pair.second ==
-                Authenticator.success.lowercase(Locale.getDefault())
+            Authenticator.publishResult(Authenticator.success,
+                this@WebViewActivity, intent)
+            this@WebViewActivity.finish()
+        } else {
+            if (pair.first ==
+                Authenticator.failed.lowercase(Locale.getDefault()) && pair.second == intent.extras?.getString(
+                    "actionToken")
             ) {
-                Authenticator.publishResult(Authenticator.success,
-                    this@WebViewActivity, intent)
-                this@WebViewActivity.finish()
-            } else {
                 Authenticator.publishResult(Authenticator.failed,
                     this@WebViewActivity, intent)
                 this@WebViewActivity.finish()
@@ -159,6 +171,9 @@ class WebViewActivity : AppCompatActivity() {
     }
 
 
+    /**
+     * This receiver get the response from the server
+     */
     private val videoConferenceStatusReceiver: BroadcastReceiver =
         object : BroadcastReceiver() {
             override fun onReceive(context: Context?, receiverIntent: Intent?) {

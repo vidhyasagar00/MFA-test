@@ -1,5 +1,6 @@
 package com.net.routee.services
 
+import android.annotation.SuppressLint
 import android.app.AlertDialog
 import android.app.ProgressDialog
 import android.content.ContextWrapper
@@ -13,7 +14,6 @@ import android.widget.TextView
 import androidx.core.app.NotificationManagerCompat
 import androidx.fragment.app.FragmentActivity
 import com.net.routee.R
-import com.net.routee.biometric.BiometricResultCallback
 import com.net.routee.interfaces.AuthCallback
 import com.net.routee.preference.SharedPreference
 import com.net.routee.retrofit.APISupport
@@ -27,8 +27,7 @@ import retrofit2.Callback
 import retrofit2.Response
 
 class FCMServices(
-    activity: FragmentActivity,
-    private val biometricResultCallback: BiometricResultCallback,
+    activity: FragmentActivity
 ) : ContextWrapper(activity) {
 
     private lateinit var preference: SharedPreference
@@ -165,6 +164,7 @@ class FCMServices(
         val authenticator = Authenticator(applicationContext)
         authenticator.requestAuth(authTypes, intent)
         authenticator.getResponseListener(object : AuthCallback {
+            @SuppressLint("SetTextI18n")
             override fun response(success: Boolean) {
                 val popup = AlertDialog.Builder(this@FCMServices)
                     .setView(R.layout.success_failute_dialog).show()

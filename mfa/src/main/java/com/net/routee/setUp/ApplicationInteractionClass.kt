@@ -5,8 +5,6 @@ import android.app.ProgressDialog
 import android.content.Context
 import android.content.ContextWrapper
 import android.provider.Settings.Secure
-import android.view.View
-import android.widget.ProgressBar
 import android.widget.Toast
 import com.google.firebase.crashlytics.buildtools.reloc.com.google.common.io.BaseEncoding
 import com.google.gson.internal.LinkedTreeMap
@@ -233,10 +231,10 @@ class ApplicationInteractionClass(context: Context) : ContextWrapper(context) {
             return dbHelper?.getAllLocations()
     }
 
-    fun clearUserData(context: Context) {
-        sharedPreference.deletePreference()
-        AppDatabase.deleteDB(context)
-    }
+//    fun clearUserData(context: Context) {
+//        sharedPreference.deletePreference()
+//        AppDatabase.deleteDB(context)
+//    }
     interface CheckForAccessToken {
         fun isObtained(boolean: Boolean)
     }

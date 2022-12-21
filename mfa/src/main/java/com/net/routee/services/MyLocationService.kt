@@ -73,10 +73,10 @@ class MyLocationService : Service() {
     companion object {
         //    SessionManagement sessionManagement;
         // The minimum distance to change Updates in meters
-        private const val MIN_DISTANCE_CHANGE_FOR_UPDATES = 0.001 // 10 meters
+//        private const val MIN_DISTANCE_CHANGE_FOR_UPDATES = 0.001 // 10 meters
 
         // The minimum time between updates in milliseconds
-        private const val MIN_TIME_BW_UPDATES = (100).toLong()
+//        private const val MIN_TIME_BW_UPDATES = (100).toLong()
 
         const val locationChannel = "location_channel"
 

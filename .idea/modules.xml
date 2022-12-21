@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FirstModule.iml" filepath="$PROJECT_DIR$/.idea/modules/FirstModule.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mfa/FirstModule.mfa.iml" filepath="$PROJECT_DIR$/.idea/modules/mfa/FirstModule.mfa.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mfaSampleApp/FirstModule.mfaSampleApp.iml" filepath="$PROJECT_DIR$/.idea/modules/mfaSampleApp/FirstModule.mfaSampleApp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mfa_library/FirstModule.mfa_library.iml" filepath="$PROJECT_DIR$/.idea/modules/mfa_library/FirstModule.mfa_library.iml" />
     </modules>
   </component>
 </project>

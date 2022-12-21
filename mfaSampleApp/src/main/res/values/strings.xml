@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">MFA</string>
+    <string name="authenticate" translatable="false">Create notification</string>
+    <string name="secret_page" translatable="false">SECRET PAGE</string>
+    <string name="open_fragment" translatable="false">Open Fragment</string>
+    <string name="get_location" translatable="false">Get Location</string>
+
+</resources>
