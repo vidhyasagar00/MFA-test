@@ -9,4 +9,3 @@ dependencyResolutionManagement {
 rootProject.name = "FirstModule"
 include ':mfaSampleApp'
 include ':mfa'
-include ':mfa_library'
