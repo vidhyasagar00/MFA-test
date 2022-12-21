@@ -88,7 +88,7 @@ afterEvaluate {
 
                 groupId ='com.github.vidhyasagar00'
                 artifactId = 'MFA-test-library'
-                version = '1.2.0'
+                version = '1.2.1'
 
             }
         }
