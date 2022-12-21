@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "207268178778",
+    "project_id": "mfa-sdk-fcac1",
+    "storage_bucket": "mfa-sdk-fcac1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207268178778:android:1147b7b171aebae9f56163",
+        "android_client_info": {
+          "package_name": "com.example.firstmodule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207268178778-rgce6bq5u13o1l4968rqem7sg8hc8gai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEGWxluj49Q5sDH8NT1HZ-O611iK669O0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207268178778-rgce6bq5u13o1l4968rqem7sg8hc8gai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
