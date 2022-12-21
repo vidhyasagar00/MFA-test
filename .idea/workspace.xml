@@ -19,125 +19,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab1efa22-8a37-419a-9316-6ea1d0165655" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/android-mfa.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_3_6_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_5_5_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_ktx_1_5_5_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_testing_1_5_5_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_annotation_1_0_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_5_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_5_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_4_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_5_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_services_storage_1_4_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_tracing_tracing_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_20_4_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_18_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_fido_19_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_location_21_0_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_18_0_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_6_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_13_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_5_3_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_ktx_1_5_3_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_testing_1_5_3_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_20_3_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_location_20_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_6_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_13_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/FirstModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/mfa/FirstModule.mfa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/mfa/FirstModule.mfa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/mfaSampleApp/FirstModule.mfaSampleApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/mfaSampleApp/FirstModule.mfaSampleApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/mfa_library/FirstModule.mfa_library.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/mfa_library/FirstModule.mfa_library.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/github.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jitpack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jitpack.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/mfa/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa/src/androidTest/java/com/net/routee/otpdetection/OTPMessageClientTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/mfa/src/androidTest/java/com/net/routee/otpdetection/OTPMessageClientTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa/src/androidTest/java/com/net/routee/services/FCMServicesClientTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/mfa/src/androidTest/java/com/net/routee/services/FCMServicesClientTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/consumer-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/androidTest/java/test/myPackage/mfa/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/biometric/BiometricDetection.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/biometric/BiometricFingerPrintStatus.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/biometric/BiometricResultCallback.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/database/AppDatabase.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/database/DatabaseHelper.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/database/DatabaseHelperImpl.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/database/LocationDao.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/database/LocationDataClass.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/firebaseMessage/FCMAction.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/firebaseMessage/FCMMessageService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/firebaseMessage/FCMTokenCallback.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/interfaces/API.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/interfaces/APICallback.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/interfaces/AuthCallback.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/interfaces/ScreenOpenHelper.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/location/LocationClient.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/location/LocationObject.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/location/LocationPermissionCallback.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/location/SingleLocationObject.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/otpdetection/AppSignatureHelper.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/otpdetection/FragmentPermissionCallback.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/otpdetection/MessageReceiver.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/otpdetection/MessageRequestObject.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/otpdetection/OTPDetectionClient.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/otpdetection/OTPMessageCallBack.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/otpdetection/OTPValidationActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/preference/SharedPreference.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/retrofit/APIResult.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/retrofit/APISupport.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/retrofit/CustomizedCallback.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/retrofit/RetrofitClient.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/services/Authenticator.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/services/FCMServices.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/services/MyLocationService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/services/NotificationReceiver.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/setUp/ApplicationDetails.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/setUp/ApplicationInteractionClass.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/utils/Constants.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/utils/PermissionReqCreator.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/utils/PermissionReqHandler.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/java/test/myPackage/mfa/routee/videoCall/WebViewActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/res/drawable/ic_failure.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/res/drawable/ic_success.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/res/drawable/rectangle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/res/drawable/rectangle_top_corners.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/res/layout/activity_web_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/res/layout/authentication_dialog.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/res/layout/otp_validation_xml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/res/layout/phone_number_dialog_box.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/res/layout/pop_up_for_access_token.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/res/layout/success_failute_dialog.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/res/values-gr/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfa_library/src/test/java/test/myPackage/mfa/ExampleUnitTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -637,7 +520,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671543275547</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1.2">
+      <created>1671626178081</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671626178081</updated>
+    </task>
+    <task id="LOCAL-00010" summary="1.2">
+      <created>1671626235129</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671626235129</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -660,7 +557,8 @@
     <MESSAGE value="Video call feature and other changes." />
     <MESSAGE value="all changes" />
     <MESSAGE value="latest changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="latest changes" />
+    <MESSAGE value="1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
