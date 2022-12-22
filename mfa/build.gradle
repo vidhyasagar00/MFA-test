@@ -84,12 +84,13 @@ afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-                from components.release
-
                 groupId ='com.github.vidhyasagar00'
                 artifactId = 'MFA-test-library'
                 version = '1.2.1'
 
+                afterEvaluate {
+                    from components.release
+                }
             }
         }
     }
