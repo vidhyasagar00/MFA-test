@@ -8,8 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab1efa22-8a37-419a-9316-6ea1d0165655" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/mfaSampleApp/FirstModule.mfaSampleApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/mfaSampleApp/FirstModule.mfaSampleApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfa/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/mfa/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671684101631</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="new">
+      <created>1671686114177</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671686114177</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
