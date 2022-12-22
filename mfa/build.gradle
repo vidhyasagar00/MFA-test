@@ -85,7 +85,7 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 groupId ='com.github.vidhyasagar00'
-                artifactId = 'MFA-test-library'
+                artifactId = 'MFA-test'
                 version = '1.2.1'
 
                 afterEvaluate {
